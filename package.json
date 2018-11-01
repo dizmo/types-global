@@ -5,7 +5,7 @@
     "url": "https://github.com/hsk81"
   },
   "dependencies": {},
-  "description": "type definitions for global",
+  "description": "Global type definitions",
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.5",
