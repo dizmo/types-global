@@ -5,7 +5,7 @@
     "url": "https://github.com/hsk81"
   },
   "dependencies": {},
-  "description": "type definition of global",
+  "description": "type definitions for global",
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.5",
@@ -32,7 +32,7 @@
   "name": "@dizmo/types-global",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/dizmo/types-global.git"
   },
   "scripts": {
     "build": "node ./cli/run-build.js",
