@@ -6,10 +6,13 @@ import "mocha";
 
 describe("Global", () => {
     it("should exist", () => {
-        expect(global).to.not.be.an("undefined");
+        expect(typeof global).to.not.eq("undefined");
     });
     it("should be an object", () => {
         expect(typeof global).to.eq("object");
+    });
+    it("should be referenceable", () => {
+        expect(global).to.not.eq(undefined);
     });
 });
 
